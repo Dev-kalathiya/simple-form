@@ -1,17 +1,20 @@
-/* App.css */
+#root{
+  display: horizontal;
+}
 
 .main {
   max-width: 400px;
-  margin: 50px auto;
+  margin: 200px auto;
   padding: 20px;
+  
   border-radius: 10px;
-  background-color: #f5f5f5;
-  box-shadow: 20px 8px 16px rgba(0, 0, 0, 0.1);
+  background-color: #c8c4c4;
+  box-shadow: 20px 8px 16px rgba(0, 0, 0, 0.2);
   transition: box-shadow 0.3s ease;
 }
 
 .main:hover {
-  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
 }
 
 form {
@@ -118,5 +121,37 @@ input[type="text"].d3::after {
 }
 
 input[type="password"] {
-  border-color: #e74c3c; /* Red */
+  border-color: #d9d8dd; /* Red */
+}
+.hexagon {
+  position: relative;
+  width: 200px; /* Adjust as needed */
+  height: 50px; /* Adjust as needed */
+  background-color: #4c5a69f0; /* Adjust color as needed */
+  margin: 20px auto;
+  text-align: center;
+  line-height: 45px;
+  color: white;
+  font-weight: bold;
+  font-size: 24px; /* Adjust as needed */
+  clip-path: polygon(25% 0%, 75% 0%, 100%, 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+
+.hexagon:before,
+.hexagon:after {
+  content: '';
+  position: absolute;
+  width: 60px; /* Adjust as needed */
+  height: 5px; /* Adjust as needed */
+  background-color: #1e1e18a5; /* Same color as the hexagon */
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.hexagon:before {
+  left: -80px; /* Adjust as needed */
+}
+
+.hexagon:after {
+  right: -80px; /* Adjust as needed */
 }
