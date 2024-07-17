@@ -109,31 +109,31 @@ input[type="submit"]:hover {
 }
 
 input[type="text"].d1::after {
-  border-color: #1abc9c; /* Turquoise */
+  border-color: #1abc9c; 
 }
 
 input[type="text"].d2 ::after {
-  border-color: #e67e22; /* Orange */
+  border-color: #e67e22;
 }
 
 input[type="text"].d3::after {
-  border-color: #3498db; /* Blue */
+  border-color: #3498db;
 }
 
 input[type="password"] {
-  border-color: #d9d8dd; /* Red */
+  border-color: #d9d8dd;
 }
 .hexagon {
   position: relative;
-  width: 200px; /* Adjust as needed */
-  height: 50px; /* Adjust as needed */
-  background-color: #4c5a69f0; /* Adjust color as needed */
+  width: 200px; 
+  height: 50px; 
+  background-color: #4c5a69f0; 
   margin: 20px auto;
   text-align: center;
   line-height: 45px;
   color: white;
   font-weight: bold;
-  font-size: 24px; /* Adjust as needed */
+  font-size: 24px; 
   clip-path: polygon(25% 0%, 75% 0%, 100%, 50%, 75% 100%, 25% 100%, 0% 50%);
 }
 
@@ -141,17 +141,17 @@ input[type="password"] {
 .hexagon:after {
   content: '';
   position: absolute;
-  width: 60px; /* Adjust as needed */
-  height: 5px; /* Adjust as needed */
-  background-color: #1e1e18a5; /* Same color as the hexagon */
+  width: 60px; 
+  height: 5px; 
+  background-color: #1e1e18a5; 
   top: 50%;
   transform: translateY(-50%);
 }
 
 .hexagon:before {
-  left: -80px; /* Adjust as needed */
+  left: -80px; 
 }
 
 .hexagon:after {
-  right: -80px; /* Adjust as needed */
+  right: -80px; 
 }
