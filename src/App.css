@@ -8,7 +8,7 @@
   padding: 20px;
   
   border-radius: 10px;
-  background-color: #c8c4c4;
+  background-color: #c5d282;
   box-shadow: 20px 8px 16px rgba(0, 0, 0, 0.2);
   transition: box-shadow 0.3s ease;
 }
@@ -23,6 +23,7 @@ form {
 }
 
 input[type="text"],
+input[type="email"],
 input[type="password"] {
   margin-bottom: 15px;
   padding: 12px;
@@ -69,7 +70,7 @@ input[type="submit"] {
   width: 100%;
 }
 
-.button-19
+.button
 :after {
   background-clip: padding-box;
   background-color: #1cb0f6;
@@ -85,21 +86,21 @@ input[type="submit"] {
   z-index: -1;
 }
 
-.button-19:main,
-.button-19:focus {
+.button:main,
+.button:focus {
   user-select: auto;
 }
 
-.button-19:hover:not(:disabled) {
+.button:hover:not(:disabled) {
   filter: brightness(1.1);
   -webkit-filter: brightness(1.1);
 }
 
-.button-19:disabled {
+.button:disabled {
   cursor: auto;
 }
 
-.button-19:active {
+.button:active {
   border-width: 4px 0 0;
   background: none;
 }
@@ -154,4 +155,20 @@ input[type="password"] {
 
 .hexagon:after {
   right: -80px; 
+}
+
+
+
+/* 
+form2 yup */
+
+.main2 {
+  max-width: 400px;
+  margin: 200px auto;
+  padding: 20px;
+  
+  border-radius: 10px;
+  background-color: #99c6da;
+  box-shadow: 20px 8px 16px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease;
 }
