@@ -172,3 +172,6 @@ form2 yup */
   box-shadow: 20px 8px 16px rgba(0, 0, 0, 0.2);
   transition: box-shadow 0.3s ease;
 }
+.main2:hover {
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
+}
